@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Onkar Birajdar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">ORB<span class="dot">.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" title="Toggle Theme">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </button>
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HOME -->
+  <section class="section home-section" id="home">
+    <div class="home-content">
+      <div class="home-text">
+        <p class="home-greeting">Hello, I'm</p>
+        <h1 class="home-name">Onkar <br /><span class="accent">Birajdar</span></h1>
+        <p class="home-tagline">First Year B.Tech Student &nbsp;·&nbsp; Aspiring Engineer &nbsp;·&nbsp; Tech Enthusiast</p>
+        <p class="home-intro">
+          Curious by nature and driven by code. I'm a first-year B.Tech student passionate about technology,
+          problem-solving, and building things that matter. Currently exploring AI, design thinking, and
+          the endless world of computer science — one project at a time.
+        </p>
+        <div class="home-cta">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+      <div class="home-image-wrap">
+        <div class="home-image-ring"></div>
+        <div class="home-image-box">
+          <img src="assets/images/profile.jpg" alt="Onkar Birajdar" onerror="this.src='https://ui-avatars.com/api/?name=Onkar+Birajdar&background=1a3a5c&color=4fc3f7&size=300&font-size=0.35&bold=true'" />
+        </div>
+        <div class="floating-badge badge-1"><i class="fas fa-code"></i> Developer</div>
+        <div class="floating-badge badge-2"><i class="fas fa-brain"></i> AI Explorer</div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll down</span>
+      <i class="fas fa-chevron-down bounce"></i>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-header">
+      <span class="section-label">Get to know me</span>
+      <h2 class="section-title">About <span class="accent">Me</span></h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-card">
+        <div class="about-icon"><i class="fas fa-graduation-cap"></i></div>
+        <h3>Education</h3>
+        <p>Currently pursuing <strong>B.Tech (First Year)</strong> in Computer Engineering / IT.<br/>
+        Passionate about building a strong foundation in programming, mathematics, and engineering principles.</p>
+      </div>
+      <div class="about-card">
+        <div class="about-icon"><i class="fas fa-heart"></i></div>
+        <h3>Interests</h3>
+        <p>Artificial Intelligence &nbsp;·&nbsp; Web Development &nbsp;·&nbsp; Design Thinking &nbsp;·&nbsp; Open Source &nbsp;·&nbsp; Competitive Programming &nbsp;·&nbsp; Tech Innovation</p>
+      </div>
+      <div class="about-card">
+        <div class="about-icon"><i class="fas fa-bullseye"></i></div>
+        <h3>Goals</h3>
+        <p>To become a skilled software engineer, contribute to meaningful AI projects, and leverage technology to solve real-world problems at scale.</p>
+      </div>
+      <div class="about-card">
+        <div class="about-icon"><i class="fas fa-star"></i></div>
+        <h3>Strengths</h3>
+        <p>Quick Learner &nbsp;·&nbsp; Problem Solver &nbsp;·&nbsp; Team Player &nbsp;·&nbsp; Creative Thinker &nbsp;·&nbsp; Detail-Oriented &nbsp;·&nbsp; Self-Motivated</p>
+      </div>
+    </div>
+    <div class="skills-strip">
+      <span>Skills:</span>
+      <div class="skill-tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Python</span>
+        <span class="tag">C</span>
+        <span class="tag">Git & GitHub</span>
+        <span class="tag">Design Thinking</span>
+        <span class="tag">AI Fundamentals</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section alt-section" id="achievements">
+    <div class="section-header">
+      <span class="section-label">What I've earned</span>
+      <h2 class="section-title">Achievements & <span class="accent">Certificates</span></h2>
+    </div>
+    <div class="achievements-grid">
+
+      <div class="achievement-card">
+        <div class="ach-img-wrap">
+          <img src="assets/certificates/ai4a.jpg" alt="Ai4A Certificate" onerror="this.src='https://placehold.co/400x260/0d2137/4fc3f7?text=Ai4A+Certificate'" />
+          <div class="ach-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="ach-info">
+          <span class="ach-tag">Project</span>
+          <h3>Ai4A Project</h3>
+          <p>Completed the AI for All (Ai4A) project, exploring practical applications of Artificial Intelligence and its societal impact.</p>
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div class="ach-img-wrap">
+          <img src="assets/certificates/design-thinking.jpg" alt="Design Thinking Certificate" onerror="this.src='https://placehold.co/400x260/0d2137/4fc3f7?text=Design+Thinking+Project'" />
+          <div class="ach-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="ach-info">
+          <span class="ach-tag">Project</span>
+          <h3>Design Thinking Project</h3>
+          <p>Applied human-centered design principles to identify problems and prototype creative, user-driven solutions.</p>
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div class="ach-img-wrap">
+          <img src="assets/certificates/ace.jpg" alt="ACE Certificate" onerror="this.src='https://placehold.co/400x260/0d2137/4fc3f7?text=ACE+Project'" />
+          <div class="ach-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="ach-info">
+          <span class="ach-tag">Project</span>
+          <h3>ACE Project</h3>
+          <p>Successfully completed the ACE (Applied Collaborative Engineering) project, demonstrating teamwork and engineering application skills.</p>
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div class="ach-img-wrap">
+          <img src="assets/certificates/coursera.jpg" alt="Coursera Certificate" onerror="this.src='https://placehold.co/400x260/0d2137/4fc3f7?text=Coursera+Certificate'" />
+          <div class="ach-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="ach-info">
+          <span class="ach-tag">Certificate</span>
+          <h3>Coursera Certification</h3>
+          <p>Earned a verified certificate from Coursera upon completing an online course in a relevant technical domain.</p>
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div class="ach-img-wrap">
+          <img src="assets/certificates/netacad.jpg" alt="NetAcad Certificate" onerror="this.src='https://placehold.co/400x260/0d2137/4fc3f7?text=Cisco+NetAcad+Certificate'" />
+          <div class="ach-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="ach-info">
+          <span class="ach-tag">Certificate</span>
+          <h3>Cisco NetAcad Certification</h3>
+          <p>Completed Cisco Networking Academy coursework, gaining foundational knowledge in networking and cybersecurity.</p>
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div class="ach-img-wrap">
+          <img src="assets/certificates/yuva-ai.jpg" alt="Yuva AI Certificate" onerror="this.src='https://placehold.co/400x260/0d2137/4fc3f7?text=Yuva+AI+Certificate'" />
+          <div class="ach-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="ach-info">
+          <span class="ach-tag">Certificate</span>
+          <h3>Yuva AI Certification</h3>
+          <p>Recognized by the Yuva AI program for participation and completion of AI literacy and practical learning modules.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-header">
+      <span class="section-label">Things I've built</span>
+      <h2 class="section-title">My <span class="accent">Projects</span></h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-img-wrap">
+          <img src="assets/projects/project1.jpg" alt="Project 1" onerror="this.src='https://placehold.co/500x300/0d2137/4fc3f7?text=Project+Screenshot'" />
+        </div>
+        <div class="project-info">
+          <h3>Ai4A Project</h3>
+          <p>An AI-driven project exploring real-world problem-solving using machine learning concepts and data analysis techniques.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span><span class="tag">AI</span><span class="tag">Data</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-wrap">
+          <img src="assets/projects/project2.jpg" alt="Project 2" onerror="this.src='https://placehold.co/500x300/0d2137/4fc3f7?text=Project+Screenshot'" />
+        </div>
+        <div class="project-info">
+          <h3>Design Thinking Project</h3>
+          <p>A human-centered design solution developed through iterative prototyping, empathy mapping, and user testing.</p>
+          <div class="project-tags">
+            <span class="tag">Design</span><span class="tag">UX</span><span class="tag">Prototype</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-wrap">
+          <img src="assets/projects/project3.jpg" alt="Project 3" onerror="this.src='https://placehold.co/500x300/0d2137/4fc3f7?text=Project+Screenshot'" />
+        </div>
+        <div class="project-info">
+          <h3>ACE Project</h3>
+          <p>A collaborative engineering application developed as part of the ACE program, demonstrating applied technical skills.</p>
+          <div class="project-tags">
+            <span class="tag">Engineering</span><span class="tag">Teamwork</span><span class="tag">C</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section alt-section" id="gallery">
+    <div class="section-header">
+      <span class="section-label">Memories & Milestones</span>
+      <h2 class="section-title">Photo <span class="accent">Gallery</span></h2>
+    </div>
+    <div class="gallery-grid" id="galleryGrid">
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="assets/gallery/photo1.jpg" alt="Gallery Photo 1" onerror="this.src='https://placehold.co/400x300/0d2137/4fc3f7?text=Photo+1'" />
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="assets/gallery/photo2.jpg" alt="Gallery Photo 2" onerror="this.src='https://placehold.co/400x300/0d2137/4fc3f7?text=Photo+2'" />
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="assets/certificates/coursera.jpg" alt="Coursera Cert" onerror="this.src='https://placehold.co/400x300/0d2137/4fc3f7?text=Coursera+Cert'" />
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="assets/certificates/netacad.jpg" alt="NetAcad Cert" onerror="this.src='https://placehold.co/400x300/0d2137/4fc3f7?text=NetAcad+Cert'" />
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="assets/certificates/yuva-ai.jpg" alt="Yuva AI Cert" onerror="this.src='https://placehold.co/400x300/0d2137/4fc3f7?text=Yuva+AI+Cert'" />
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="assets/gallery/photo3.jpg" alt="Gallery Photo 3" onerror="this.src='https://placehold.co/400x300/0d2137/4fc3f7?text=Photo+3'" />
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+      <button class="lightbox-close" onclick="closeLightbox()"><i class="fas fa-times"></i></button>
+      <img src="" alt="Lightbox Image" id="lightboxImg" />
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-header">
+      <span class="section-label">Let's connect</span>
+      <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+    </div>
+    <div class="contact-wrap">
+      <div class="contact-info">
+        <p class="contact-desc">I'm always open to learning opportunities, collaborations, and conversations about technology. Feel free to reach out!</p>
+        <div class="contact-items">
+          <a href="mailto:onkar@email.com" class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">onkar@email.com</span>
+            </div>
+          </a>
+          <a href="tel:+91XXXXXXXXXX" class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <span class="contact-label">Phone</span>
+              <span class="contact-value">+91 XXXXXXXXXX</span>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/onkar-birajdar" target="_blank" class="contact-item">
+            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">linkedin.com/in/onkar-birajdar</span>
+            </div>
+          </a>
+          <a href="https://github.com/onkar-birajdar" target="_blank" class="contact-item">
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">github.com/onkar-birajdar</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" placeholder="Enter your name" required />
+        </div>
+        <div class="form-group">
+          <label>Your Email</label>
+          <input type="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea rows="5" placeholder="Write your message..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Send Message <i class="fas fa-paper-plane"></i></button>
+        <p class="form-success" id="formSuccess">✅ Message sent! I'll get back to you soon.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Designed & Developed by <span class="accent">Onkar Rajshekhar Birajdar</span></p>
+    <p class="footer-sub">B.Tech First Year &nbsp;·&nbsp; 2024–2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
